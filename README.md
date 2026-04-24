@@ -200,7 +200,7 @@ Cada proyecto tiene dos capas: un **brief técnico público** (este repositorio 
 | ⚙️ Naval Design LLM | [naval-design-llm-showcase](https://github.com/Robertgaraban/naval-design-llm-showcase) | ![](https://img.shields.io/badge/-Completado-8A2BE2?style=flat-square) |
 | 📐 TFG Skill | [tfg-skill-showcase](https://github.com/Robertgaraban/tfg-skill-showcase) | ![](https://img.shields.io/badge/-Producción-brightgreen?style=flat-square) |
 
-**Para acceso a código fuente:** robertgaraban@gmail.com — Asunto: `[Acceso repo privado] <nombre-repo>`
+**Para acceso a código fuente:** contacto disponible en los badges de la cabecera — Asunto: `[Acceso repo privado] <nombre-repo>`
 
 ---
 
