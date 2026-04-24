@@ -58,7 +58,7 @@ Sistema de gestión de nóminas con cálculo de devengos, deducciones, generaci�
 ---
 
 ### 🤖 Agentes IA — HydroAbyss & ABYSS STCW
-Agentes de IA especializados con flujos de trabajo y reglas de dominio marítimo definidas, adaptados e integrados en los sistemas HydroAbyss y ABYSS STCW. Operan en producción para generación de manuales STCW, auditoría de calidad documental, control de paridad normativa y tareas de desarrollo. Cada sistema tiene su propio contexto de agente (`AGENT.md`) y skills reutilizables.
+Agentes de IA especializados con flujos de trabajo y reglas de dominio marítimo definidas, adaptados e integrados en los sistemas HydroAbyss y ABYSS STCW. Operan en producción para generación de manuales STCW, auditoría de calidad documental, control de paridad normativa y tareas de desarrollo. Cada sistema tiene su propio contexto de agente (AGENT.md) y skills reutilizables.
 
 **Enfoque:** Agentes multi-rol con personalidad y entregables definidos, adaptados al marco regulatorio STCW / DGMM / DPC  
 **Integración:** Embebidos en el pipeline del Generador de Manuales y en los workflows de ABYSS STCW  
