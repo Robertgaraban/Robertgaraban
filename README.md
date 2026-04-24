@@ -290,8 +290,8 @@ flowchart TD
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Fusion 360](https://img.shields.io/badge/Fusion_360_(Python_API)-FF6C00?style=flat-square&logo=autodesk&logoColor=white)
-![AutoCAD](https://img.shields.io/badge/AutoCAD_LT+AutoLISP-E51937?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP_stdio_JSON--RPC-FF6B35?style=flat-square)
+![AutoCAD](https://img.shields.io/badge/AutoCAD_LT%2BAutoLISP-E51937?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP_stdio_JSON-RPC-FF6B35?style=flat-square)
 ![Claude](https://img.shields.io/badge/Claude_(Anthropic)-D97706?style=flat-square)
 ![ArduPilot](https://img.shields.io/badge/ArduPilot+MPC-02569B?style=flat-square)
 ![TFG](https://img.shields.io/badge/TFG-FNB%2FUPC-8B0000?style=flat-square)
