@@ -11,6 +11,9 @@ Ingeniero naval y desarrollador de software. Construyo sistemas de gestión mar�
 ## Trayectoria — de 0 a producción
 
 ```
+1997  Formación en la Universidad de Carabobo (UC) de Desarrollador de Software y Redes Novel
+      Primeros proyectos: Redes Novel, Vecario Universidad de Carabobo Mantenimeinto de Redes y Sistemas
+
 2020  Formación intensiva en desarrollo web (HTML, CSS, JS, Node.js, Angular) — Bootcamp Toti, Brasil
       Primeros proyectos: ADTIME, Angola CLI
       Stack inicial: JavaScript · Node.js · Angular · HTML/CSS
