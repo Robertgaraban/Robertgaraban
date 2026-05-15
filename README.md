@@ -11,25 +11,57 @@ Badalona, Barcelona (disponibilidad para traslado a Madrid) · [robertgaraban@gm
 
 ---
 
-## PERFIL
+## PERFIL EJECUTIVO
 
-Desarrollador Full-Stack con experiencia construyendo y operando productos SaaS en producción, cubriendo frontend, backend, integraciones, despliegue, soporte en vivo y evolución funcional.
+Ingeniero orientado a producto con enfoque **end-to-end**: definición estratégica, diseño técnico, implementación Full-Stack, despliegue en producción y operación continua.
 
-Trabajo principalmente con Node.js, React, TypeScript/JavaScript, APIs REST y bases de datos relacionales, con foco en producto, trazabilidad operativa y fiabilidad.
+Mi propuesta de valor combina tres capacidades en una misma función:
+- **Ingeniería de IA aplicada:** incorporación pragmática de automatización, asistentes y flujos inteligentes para acelerar operaciones y mejorar la toma de decisiones.
+- **Senior Full-Stack delivery:** capacidad de construir y evolucionar plataformas SaaS completas (frontend, backend, datos, seguridad y observabilidad).
+- **Gestión de producto:** priorización por impacto, dirección de roadmap y alineación entre negocio, tecnología y experiencia de usuario.
 
-Historial reciente lanzando y manteniendo sistemas reales con volumen de uso, combinando velocidad de entrega, estabilidad operativa y capacidad para traducir requisitos de negocio en soluciones técnicas.
+Trabajo con foco en resultados medibles: tiempo de entrega, estabilidad operativa, adopción de usuarios y calidad de servicio en entornos reales.
+
+---
+
+## ENFOQUE PROFESIONAL
+
+- Transformo objetivos de negocio en iniciativas técnicas priorizadas por valor.
+- Diseño arquitecturas mantenibles con visión de escalabilidad y costo operativo.
+- Entrego funcionalidades con trazabilidad funcional y operativa (de requerimiento a producción).
+- Lidero la ejecución transversal entre stakeholders de producto, ingeniería y operación.
+- Impulso una cultura de mejora continua apoyada en datos, feedback y automatización.
+
+---
+
+## ÁREAS DE IMPACTO
+
+### 1) Ingeniería de IA aplicada al producto
+- Integración de capacidades AI-assisted en ciclos de desarrollo y operación.
+- Automatización de flujos repetitivos y soporte a decisiones con datos del negocio.
+- Diseño de experiencias de producto donde IA aporta eficiencia real (no solo features “cosméticas”).
+
+### 2) Desarrollo Full-Stack senior
+- Construcción de aplicaciones web robustas en stack JavaScript/TypeScript + servicios backend.
+- Diseño de APIs, lógica de negocio y modelos de datos para sistemas en producción.
+- Integraciones con terceros, autenticación/autorización y control de acceso por roles.
+
+### 3) Gestión de producto y entrega
+- Roadmap, backlog y priorización por impacto.
+- Definición de objetivos, KPIs y criterios de aceptación.
+- Coordinación entre áreas para garantizar entregas predecibles y sostenibles.
 
 ---
 
 ## STACK Y COMPETENCIAS CLAVE
 
-- **Backend:** Node.js, Express, PHP, APIs REST, diseño de servicios, integraciones con terceros.
+- **Backend:** Node.js, Express, PHP, APIs REST, diseño modular de servicios, integraciones con terceros.
 - **Frontend:** React, TypeScript, JavaScript, Vite, HTML5, CSS3, Bootstrap.
 - **Datos:** PostgreSQL, MySQL, MongoDB en contexto enterprise.
-- **Arquitectura y calidad:** modularidad de servicios, clean code, control de acceso por roles, autenticación/autorización, documentación técnica.
-- **Delivery y operación:** GitHub, Docker, Jira, trabajo Agile, releases, soporte en vivo, continuidad operativa.
-- **Despliegue:** Nginx, PM2, VPS Linux y operación de aplicaciones web en producción.
-- **Forma de trabajo:** autonomía, colaboración transversal, seguimiento de KPIs, mejora continua y uso pragmático de herramientas AI-assisted en desarrollo.
+- **Arquitectura y calidad:** clean code, diseño mantenible, autenticación/autorización, RBAC, documentación técnica.
+- **Operación y delivery:** Docker, GitHub, Jira, Agile, releases, soporte en vivo, continuidad operativa.
+- **Infraestructura y despliegue:** Nginx, PM2, VPS Linux, operación de aplicaciones web en producción.
+- **Gestión de producto:** discovery, priorización, definición funcional, seguimiento de KPIs y mejora continua.
 
 ---
 
@@ -40,22 +72,22 @@ Historial reciente lanzando y manteniendo sistemas reales con volumen de uso, co
 
 - Diseñé, construí y lancé 4 sistemas web en producción para operaciones STCW, nómina, contenido técnico y captación comercial.
 - Entregué una plataforma SaaS STCW que soporta **939 alumnos activos**, **1.273 matrículas confirmadas** y **373 ediciones de curso**, con **98,32% de cobro** sobre **1.252 facturas**.
-- Asumí arquitectura, releases, evolución de modelo de datos y soporte en vivo sobre React, Node.js, PostgreSQL, PHP y MySQL.
-- Implementé flujos de autenticación, control de roles y protección de datos para entornos regulados.
+- Asumí responsabilidad completa sobre arquitectura, evolución de modelo de datos, releases y soporte en vivo.
+- Implementé flujos de autenticación, control por roles y protección de datos para contextos operativos regulados.
 
 ### Product Manager | VTEX
 **2021 – 2023 | Remoto, Brasil**
 
 - Coordiné roadmap, backlog y seguimiento de KPIs junto a equipos de ingeniería y diseño en VTEX Commerce Cloud.
-- Participé en despliegues enterprise para cuentas como Bancolombia y Nu Brasil, alineando entrega técnica con requisitos de seguridad, accesos y SLA.
-- Colaboré en contexto de microservicios y flujos event-driven de plataforma, incluyendo trabajo con integraciones basadas en eventos (Kafka).
+- Participé en despliegues enterprise para cuentas como Bancolombia y Nu Brasil, alineando entregas técnicas con requisitos de seguridad, acceso y SLA.
+- Colaboré en contextos de microservicios y flujos event-driven, incluyendo integraciones basadas en Kafka.
 
 ### Product Technical Analyst (PTA) | VTEX
 **2018 – 2022 | Remoto, Brasil**
 
-- Gestioné gobierno de accesos, seguridad operativa e incidencias sensibles por SLA para clientes enterprise.
-- Actué como puente técnico entre producto, soporte e ingeniería en integraciones y continuidad de servicio.
-- Colaboré con flujos de integración y herramientas operativas basadas en Angular/Vue y servicios REST/GraphQL.
+- Gestioné gobierno de accesos, seguridad operativa e incidencias críticas bajo acuerdos de servicio.
+- Actué como puente técnico entre producto, soporte e ingeniería para resolver integraciones complejas.
+- Colaboré con herramientas y flujos sobre Angular/Vue, APIs REST y GraphQL.
 
 ---
 
