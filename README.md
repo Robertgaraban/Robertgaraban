@@ -3,21 +3,19 @@
 # ROBERT GARABAN GARCÍAS
 ### AI Engineer · Product Engineer · Desarrollador Full-Stack
 
-Roles objetivo: **AI Engineer · Product Engineer · Senior Full-Stack Developer**
+Roles objetivo: **AI Engineer · Product Engineer · Senior Full-Stack Developer**  
+📍 Barcelona, España · ✉️ [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) · 📱 +34 600 36 70 28  
+🌐 [github.com/Robertgaraban](https://github.com/Robertgaraban) · 💼 [linkedin.com/in/robertgaraban](https://linkedin.com/in/robertgaraban) · ⚓ [hydroabyss.com](https://hydroabyss.com)
 
-| 📍 Barcelona, España | ✉️ [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) | 📱 +34 600 36 70 28 |
-|---|---|---|
-| 🌐 [github.com/Robertgaraban](https://github.com/Robertgaraban) | 💼 [linkedin.com/in/robertgaraban](https://linkedin.com/in/robertgaraban) | ⚓ [hydroabyss.com](https://hydroabyss.com) |
-
-| 4 sistemas | 939 alumnos | IA aplicada | VTEX |
+| Sistemas | Alumnos | IA | Entorno |
 |---:|---:|---:|---:|
-| en producción | activos | a flujos | enterprise |
+| **4 en producción** | **939 activos** | **Aplicada a flujos** | **VTEX enterprise** |
 
 </div>
 
 ---
 
-## PERFIL PROFESIONAL
+## Perfil profesional
 
 - **AI Engineer y Product Engineer** con experiencia construyendo sistemas **on-site y cloud**, desde frontend y backend hasta despliegue, observabilidad y operación en producción.
 - Combino estrategia de producto con plataformas reales para entornos regulados y con validación compleja: formación STCW, nómina, gestión marítima escolar y operaciones de empresa.
@@ -25,14 +23,13 @@ Roles objetivo: **AI Engineer · Product Engineer · Senior Full-Stack Developer
 
 ---
 
-## PROYECTOS EN PRODUCCIÓN
+## Proyectos en producción
 
 <table>
 <tr>
 <td width="50%">
 
-### ABYSS
-**app.stcw.site**
+### [ABYSS](https://app.stcw.site)
 
 Plataforma SaaS STCW para centros de formación marítima con control de roles, facturación, flujos académicos, certificaciones e integración diaria.
 
@@ -43,8 +40,7 @@ Stack: React, Node.js, PostgreSQL
 </td>
 <td width="50%">
 
-### Nóminas
-**nominas.atlantechmarine.com**
+### [Nóminas](https://nominas.atlantechmarine.com)
 
 Aplicación para expedientes, flujos de nómina, control de costes laborales e informes operativos.
 
@@ -57,8 +53,7 @@ Stack: React, Vite, PHP REST API, MySQL
 <tr>
 <td width="50%">
 
-### HydroAbyss
-**hydroabyss.com**
+### [HydroAbyss](https://hydroabyss.com)
 
 Plataforma de contenido técnico para cumplimiento marítimo, seguridad STCW, operaciones y tecnología naval.
 
@@ -69,8 +64,7 @@ Stack: HTML, CSS, JavaScript
 </td>
 <td width="50%">
 
-### AtlantechMarine
-**atlantechmarine.com**
+### [AtlantechMarine](https://atlantechmarine.com)
 
 Web comercial para servicios marítimos, ingeniería naval y buceo industrial orientada a captación cualificada.
 
@@ -84,7 +78,7 @@ Stack: HTML, CSS, Bootstrap, JavaScript
 
 ---
 
-## HABILIDADES TÉCNICAS
+## Habilidades técnicas
 
 | IA y Backend | Frontend y Datos |
 |---|---|
@@ -92,7 +86,7 @@ Stack: HTML, CSS, Bootstrap, JavaScript
 
 ---
 
-## PRODUCTO Y OPERACIÓN
+## Producto y operación
 
 | Producto y Arquitectura | Entrega y Soporte |
 |---|---|
@@ -100,7 +94,7 @@ Stack: HTML, CSS, Bootstrap, JavaScript
 
 ---
 
-## EXPERIENCIA DE IMPACTO ACTUAL
+## Experiencia de impacto actual
 
 **Founder · AI / Product Engineer · Full-Stack · HydroAbyss**  
 **2024 – Presente · Barcelona, España**
