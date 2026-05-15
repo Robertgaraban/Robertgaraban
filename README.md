@@ -3,13 +3,12 @@
 # ROBERT GARABAN
 ### AI Engineer · Product Engineer · Desarrollador Full-Stack
 
-Objetivo profesional: **AI Engineer · Product Engineer · Senior Full-Stack Developer**  
 📍 Barcelona, España · ✉️ [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) · 📱 +34 600 36 70 28  
 🌐 [github.com/Robertgaraban](https://github.com/Robertgaraban) · 💼 [linkedin.com/in/robertgaraban](https://linkedin.com/in/robertgaraban) · ⚓ [hydroabyss.com](https://hydroabyss.com)
 
-| Sistemas | Alumnos | IA | Entorno |
+| Sistemas | Alumnos | Matrículas | Cobro |
 |---:|---:|---:|---:|
-| **4 en producción** | **939 activos** | **Aplicada a flujos** | **VTEX enterprise** |
+| **4 en producción** | **939 activos** | **1,273** | **98.32%** |
 
 </div>
 
@@ -18,7 +17,7 @@ Objetivo profesional: **AI Engineer · Product Engineer · Senior Full-Stack Dev
 ## Perfil profesional
 
 - **AI Engineer y Product Engineer** con experiencia construyendo sistemas **on-site y en nube**, desde frontend y backend hasta despliegue, observabilidad y operación en producción.
-- Combino estrategia de producto con plataformas reales para entornos regulados y con validación compleja: formación STCW, nómina, gestión marítima escolar y operaciones de empresa.
+- Combino estrategia de producto con plataformas reales para entornos regulados y con validación compleja: formación STCW, nómina, gestión marítima escolar y operaciones administrativas.
 - Integro flujos basados en IA, agentes documentales y automatización operativa donde la estabilidad y la trazabilidad importan más que el demo.
 
 ---
@@ -57,7 +56,7 @@ Stack: React, Vite, PHP REST API, MySQL
 
 Sistema de gestión operativa para escuela náutica con control de alumnos, cursos STCW, certificaciones DGMM, pagos y operación administrativa.
 
-Impacto: posicionamiento de dominio y flujo editorial especializado.
+Impacto: operación diaria centralizada y mejor control administrativo.
 
 Stack: HTML, CSS, JavaScript
 
