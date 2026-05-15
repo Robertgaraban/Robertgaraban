@@ -1,9 +1,9 @@
 <div align="center">
 
-# ROBERT GARABAN GARCÍAS
+# ROBERT GARABAN
 ### AI Engineer · Product Engineer · Desarrollador Full-Stack
 
-Roles objetivo: **AI Engineer · Product Engineer · Senior Full-Stack Developer**  
+Objetivo profesional: **AI Engineer · Product Engineer · Senior Full-Stack Developer**  
 📍 Barcelona, España · ✉️ [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) · 📱 +34 600 36 70 28  
 🌐 [github.com/Robertgaraban](https://github.com/Robertgaraban) · 💼 [linkedin.com/in/robertgaraban](https://linkedin.com/in/robertgaraban) · ⚓ [hydroabyss.com](https://hydroabyss.com)
 
@@ -17,7 +17,7 @@ Roles objetivo: **AI Engineer · Product Engineer · Senior Full-Stack Developer
 
 ## Perfil profesional
 
-- **AI Engineer y Product Engineer** con experiencia construyendo sistemas **on-site y cloud**, desde frontend y backend hasta despliegue, observabilidad y operación en producción.
+- **AI Engineer y Product Engineer** con experiencia construyendo sistemas **on-site y en nube**, desde frontend y backend hasta despliegue, observabilidad y operación en producción.
 - Combino estrategia de producto con plataformas reales para entornos regulados y con validación compleja: formación STCW, nómina, gestión marítima escolar y operaciones de empresa.
 - Integro flujos basados en IA, agentes documentales y automatización operativa donde la estabilidad y la trazabilidad importan más que el demo.
 
@@ -31,7 +31,7 @@ Roles objetivo: **AI Engineer · Product Engineer · Senior Full-Stack Developer
 
 ### [ABYSS](https://app.stcw.site)
 
-Plataforma SaaS STCW para centros de formación marítima con control de roles, facturación, flujos académicos, certificaciones e integración diaria.
+Plataforma SaaS STCW para centros de formación marítima con control de roles, facturación, flujos académicos, certificaciones e integración diaria de operaciones académicas y administrativas.
 
 Impacto: 939 alumnos activos, 1,273 matrículas, 98.32% de cobro.
 
@@ -55,7 +55,7 @@ Stack: React, Vite, PHP REST API, MySQL
 
 ### [HydroAbyss](https://hydroabyss.com)
 
-Plataforma de contenido técnico para cumplimiento marítimo, seguridad STCW, operaciones y tecnología naval.
+Sistema de gestión operativa para escuela náutica con control de alumnos, cursos STCW, certificaciones DGMM, pagos y operación administrativa.
 
 Impacto: posicionamiento de dominio y flujo editorial especializado.
 
