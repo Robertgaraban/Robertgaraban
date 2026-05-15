@@ -451,42 +451,181 @@ docker/
 
 ## Delivery Habits That Protect Results
 
-- **Requirements before code**: Product briefs converted to actionable specs before development starts
-- **Acceptance criteria**: Mandatory test plan and acceptance criteria per story
-- **Quality gates**: Type-checking, linting, build validation before release
-- **Documentation discipline**: Every feature documented; traceable from requirement to production
-- **Data integrity**: Transactional consistency, audit logging, compliance-ready patterns
-- **Security-first**: Access control and data protection architected, not bolted on
-- **Continuity**: 24/7 operational monitoring; incident response with documented resolutions
-- **Observability**: Metrics, logs, and error tracking for every critical path
+> **Engineering discipline is not a checklist. It is the system that makes every deployment predictable, every incident recoverable, and every codebase inheritable.**
+
+### The Production Pipeline — how every feature travels from idea to users
+
+```mermaid
+flowchart LR
+    A(["📋 SPEC\nBrief → Testable\nRequirements"]) --> B(["📖 STORIES\nAcceptance Criteria\n+ QA Plan"])
+    B --> C(["⚙️ GATES\nTypecheck\nLint · Build"])
+    C --> D(["🔒 SECURITY\nJWT · RBAC\nData Protection"])
+    D --> E(["🚀 RELEASE\nVersioned\nDocumented"])
+    E --> F(["📊 OBSERVE\nPrometheus\nGrafana"])
+    F --> G(["🔄 24/7 OPS\nAlerts · Runbooks\nIncident Response"])
+
+    style A fill:#0ea5e9,color:#fff,stroke:#0ea5e9
+    style B fill:#8b5cf6,color:#fff,stroke:#8b5cf6
+    style C fill:#f59e0b,color:#fff,stroke:#f59e0b
+    style D fill:#ef4444,color:#fff,stroke:#ef4444
+    style E fill:#16a34a,color:#fff,stroke:#16a34a
+    style F fill:#F46800,color:#fff,stroke:#F46800
+    style G fill:#ec4899,color:#fff,stroke:#ec4899
+```
+
+### What separates predictable delivery from firefighting
+
+| Signal | Habit | In practice | Why it matters |
+|:---:|---|---|---|
+| 📋 | **Spec before code** | Every feature starts as a written, testable requirement | Eliminates misalignment before the first line is written |
+| ✅ | **Acceptance criteria on every story** | No story ships without a pass/fail definition and a QA test plan | Makes "done" mean done — not "works on my machine" |
+| ⚙️ | **Type gates + build validation on every PR** | CI blocks the merge if TypeScript errors, lint failures, or broken builds | Broken code cannot reach production by design |
+| 📚 | **Documentation updated with every PR** | Architecture decisions, API contracts, data models kept current | Future engineers onboard in hours, not weeks |
+| 🔒 | **Security designed in, not bolted on** | JWT/RBAC modeled in the schema before the first endpoint is built | Access control is structurally impossible to retrofit |
+| 🏦 | **Transactional data integrity** | Every financial flow uses DB transactions + audit logs + compliance patterns | One missing transaction = missing money. Unacceptable |
+| 📊 | **Full observability on every critical path** | Prometheus metrics + Grafana dashboards + structured error logs | You cannot fix what you cannot see |
+| 🔄 | **Incident runbooks + 24/7 continuity** | Every alert has a documented response; production never goes dark unnoticed | Response time is inversely proportional to preparation |
 
 ---
 
 ## Professional Experience
 
-**Founder & AI / Product Engineer · Full-Stack | HydroAbyss / Consulting RG**  
-*2024–Present | Barcelona, Spain*
+### Career Timeline
 
-- Designed, built, and launched **4 production systems** for STCW operations, payroll, technical content, and commercial acquisition
-- Delivered **ABYSS**, an enterprise SaaS platform supporting **939 active students, 1,273 confirmed enrollments, 98.32% payment collection rate**
-- Architected end-to-end stack: **React | Node.js + Express | PostgreSQL | Socket.IO | JWT/RBAC**
-- Implemented real-time workflows, role-based access control, and document automation for regulated environments
-- Managed live operations, database evolution, release cycles, and 24/7 continuity
+```mermaid
+timeline
+    title Robert Garaban — Engineering Career
+    1997 : First development experience
+         : Universidad de Carabobo · Venezuela
+    2004 : Naval Engineer
+         : Escuela Naval de Venezuela
+         : Systems · Operations · Leadership
+    2020 : Full-Stack Developer Bootcamp
+         : Toti Brasil
+         : Angular · Node.js · PostgreSQL · Docker
+    2021 : Product Technical Analyst
+         : VTEX Commerce Cloud
+         : Enterprise SaaS · Access governance · SLA ops
+    2022 : Product Manager
+         : VTEX Commerce Cloud
+         : Bancolombia · Nu Brasil · Kafka · Roadmap
+    2024 : Founder · AI Product Engineer
+         : HydroAbyss / Consulting RG · Barcelona
+         : 939 users · 4 live systems · 98.32% collection
+```
 
-**Product Manager · VTEX Commerce Cloud**  
-*2021–2023 | Remote, Brazil*
+---
 
-- Coordinated roadmap, backlog, and KPI tracking for enterprise commerce platform
-- Led deployments for Fortune 500 accounts (**Bancolombia, Nu Brasil**) with strict security and SLA compliance
-- Collaborated on microservices architecture, event-driven workflows (Kafka), and enterprise integrations
-- Bridged product, engineering, and operations for technical decision-making
+<div align="center">
 
-**Product Technical Analyst (PTA) · VTEX**  
-*2018–2022 | Remote, Brazil*
+### Role 1 of 3 · Current
 
-- Managed access governance, operational security, and SLA-critical incident response for enterprise SaaS
-- Acted as technical bridge between product, support, and engineering teams
-- Worked on Angular/Vue operational tools, REST/GraphQL integrations, and service continuity
+</div>
+
+### 🏗️ Founder · AI / Product Engineer · Full-Stack
+#### HydroAbyss / Consulting RG &nbsp;·&nbsp; *2024–Present · Barcelona, Spain*
+
+<div align="center">
+
+![4 Live Systems](https://img.shields.io/badge/Live%20Systems%20Built-4-0ea5e9?style=for-the-badge)
+![939 Users](https://img.shields.io/badge/Active%20Users-939-16a34a?style=for-the-badge)
+![98.32%](https://img.shields.io/badge/Payment%20Collection-98.32%25-f59e0b?style=for-the-badge)
+![406 Certs](https://img.shields.io/badge/Certificates%20Issued-406-8b5cf6?style=for-the-badge)
+![Solo Engineer](https://img.shields.io/badge/Role-Sole%20Engineer-ec4899?style=for-the-badge)
+
+</div>
+
+> *"Designed, architected, built, deployed, and operated 4 enterprise-grade production systems in 12 months—alone. PO, Architect, Scrum Master, Developer, DevOps, QA, and Tech Writer in one role."*
+
+| What I built | Impact delivered |
+|---|---|
+| **ABYSS** — STCW SaaS platform | 939 active students · 1,273 enrollments · 406 certificates · 3,066 automated emails |
+| **mNóminas** — Payroll platform | Financial-grade employee records, payroll runs, and cost control with full audit trail |
+| **HydroAbyss** — Tech publishing | Editorial workflow · SEO architecture · specialized maritime content at scale |
+| **AtlantechMarine** — Commercial site | 149 pages · 6 locales · 0 build errors · built with AIOX + Paperclip agentic pipeline |
+
+**Stack owned end-to-end:**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![JWT/RBAC](https://img.shields.io/badge/JWT%2FRBAC-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+
+---
+
+<div align="center">
+
+### Role 2 of 3
+
+</div>
+
+### 📦 Product Manager · VTEX Commerce Cloud
+#### VTEX &nbsp;·&nbsp; *2021–2023 · Remote, Brazil*
+
+<div align="center">
+
+![Enterprise Scale](https://img.shields.io/badge/Scale-Enterprise%20SaaS-0ea5e9?style=for-the-badge)
+![Bancolombia](https://img.shields.io/badge/Account-Bancolombia-f59e0b?style=for-the-badge)
+![Nu Brasil](https://img.shields.io/badge/Account-Nu%20Brasil-8b5cf6?style=for-the-badge)
+![Microservices](https://img.shields.io/badge/Architecture-Microservices%20%2B%20Kafka-16a34a?style=for-the-badge)
+
+</div>
+
+> *"Bridged product strategy and engineering execution at one of Latin America's largest commerce platforms. Delivered for Fortune 500 accounts where security, SLA, and accuracy were non-negotiable."*
+
+| Responsibility | What it required |
+|---|---|
+| **Roadmap & backlog ownership** | Prioritization under competing stakeholder pressures, sprint-level KPI tracking, Agile delivery |
+| **Enterprise account delivery** | Bancolombia + Nu Brasil deployments with strict security, data governance, and SLA compliance |
+| **Microservices architecture collaboration** | Working inside event-driven systems (Kafka), understanding service contracts and deployment constraints |
+| **Cross-functional bridge** | Translated business requirements to engineering specs; escalated technical risk to product leadership |
+
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+
+---
+
+<div align="center">
+
+### Role 3 of 3
+
+</div>
+
+### 🔐 Product Technical Analyst (PTA) · VTEX
+#### VTEX &nbsp;·&nbsp; *2018–2022 · Remote, Brazil*
+
+<div align="center">
+
+![Access Governance](https://img.shields.io/badge/Domain-Access%20Governance-ef4444?style=for-the-badge)
+![SLA Critical](https://img.shields.io/badge/Environment-SLA--Critical%20Enterprise-0ea5e9?style=for-the-badge)
+![Technical Bridge](https://img.shields.io/badge/Role-Technical%20Bridge-16a34a?style=for-the-badge)
+
+</div>
+
+> *"Operated in the engine room of a large-scale commerce cloud: access governance, operational security, incident response—where a mistake meant a merchant going offline."*
+
+| Responsibility | What it required |
+|---|---|
+| **Access governance** | Managed permissions and security policies for enterprise merchants across VTEX Commerce Cloud |
+| **SLA-critical incident response** | Diagnosed and resolved high-severity incidents under time pressure, with full documentation |
+| **Integration & onboarding support** | REST/GraphQL integrations, merchant onboarding, and technical issue escalation |
+| **DevOps-adjacent operations** | Contributed to release flows, access provisioning, and operational continuity tooling |
+
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 
 ---
 
