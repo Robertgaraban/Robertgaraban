@@ -292,6 +292,15 @@ Commercial website for maritime services, naval engineering, and industrial divi
 
 ---
 
+## 🚀 Next Focus — ABYSS STCW Agentic Orchestration
+
+- **AIOX + Paperclip integration** as agent managers for creation, administration, and execution of multi-agent flows.
+- **Agentic orchestration lifecycle** from PRD → Epic → Feature → Task → Subtask, with explicit ownership and traceable deliverables.
+- **Observability and critical-path tracing** with real-time operational monitoring and route-level diagnostics.
+- **Grafana + Prometheus stack** for service health, latency, incident visibility, and quality signals for generated code outputs.
+
+---
+
 ## 🧠 AI Agent Architecture
 
 ```
