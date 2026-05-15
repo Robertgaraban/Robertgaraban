@@ -6,7 +6,7 @@
 📍 Barcelona, España · ✉️ [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) · 📱 +34 600 36 70 28  
 🌐 [github.com/Robertgaraban](https://github.com/Robertgaraban) · 💼 [linkedin.com/in/robertgaraban](https://linkedin.com/in/robertgaraban) · ⚓ [hydroabyss.com](https://hydroabyss.com)
 
-| Sistemas | Alumnos | Matrículas | Cobro |
+| Sistemas | Alumnos | Matrículas | Tasa de cobro |
 |---:|---:|---:|---:|
 | **4 en producción** | **939 activos** | **1,273** | **98.32%** |
 
@@ -32,7 +32,7 @@
 
 Plataforma SaaS STCW para centros de formación marítima con control de roles, facturación, flujos académicos, certificaciones e integración diaria de operaciones académicas y administrativas.
 
-Impacto: 939 alumnos activos, 1,273 matrículas, 98.32% de cobro.
+Impacto: plataforma operativa activa para formación STCW con gestión diaria en producción.
 
 Stack: React, Node.js, PostgreSQL
 
@@ -100,7 +100,7 @@ Stack: HTML, CSS, Bootstrap, JavaScript
 
 - Diseño, construyo y opero cuatro sistemas en producción para formación STCW, flujo de nómina, publishing técnico y operación comercial marítima.
 - Integré flujos asistidos por IA, agentes documentales y automatización operativa para reducir trabajo manual en gestión, documentación y control diario.
-- Métricas de operación con sistema real: 939 alumnos activos, 1,273 matrículas, 406 certificados emitidos y 98.32% de cobro sobre 1,282 alumnos no becados.
+- Métricas operativas centralizadas en el bloque inicial del perfil (sistemas, alumnos, matrículas y tasa de cobro).
 
 ---
 
