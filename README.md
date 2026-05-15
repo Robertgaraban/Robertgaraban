@@ -8,49 +8,75 @@
 
 ---
 
-**I design and ship production-grade AI-powered platforms with architectural rigor, scaling from 0 to 939+ concurrent users with 98.32% business success metrics.**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+---
+
+**I design and ship production-grade AI-powered systems—from RAG pipelines and agentic architectures to scalable SaaS platforms—proven with 939+ real users and 98.32% business success metrics.**
 
 </div>
 
 ## Executive Positioning
 
-I design and ship **production-grade platforms** where AI acceleration meets architectural rigor and product execution—delivering measurable business outcomes at enterprise scale.
+I design and ship **production-grade systems** at the intersection of AI engineering, cloud architecture, and full-stack product delivery. I bridge strategy and execution: from LangGraph agentic pipelines and RAG architectures to React/Next.js frontends, FastAPI AI endpoints, and Terraform-provisioned infrastructure.
 
-### What I bring to high-performance teams:
-- ⚡ **Extreme acceleration** — AI-driven workflows without quality loss (472K LOC/day with 0.26% rework)
-- 🏗️ **Architectural excellence** — Scalable systems built for 6+ locales, 100+ pages, enterprise security  
-- 📊 **Traceable delivery** — Requirements-to-production with 100% spec compliance and observability  
-- 🔄 **Production discipline** — Type gates, QA validation, automated release pipelines that never fail
+### Three roles. One engineer. Real production.
+
+| Role | What I deliver |
+|---|---|
+| 🤖 **AI Engineer** | Agentic systems (LangChain/LangGraph), RAG pipelines (LlamaIndex + pgvector), LLM integration (OpenAI, Claude, Llama 3), AI-assisted delivery workflows |
+| 🏗️ **Solutions Architect** | System design, cloud architecture (AWS/Azure), IaC with Terraform, microservices with Docker + Kubernetes, observability with Prometheus/Grafana |
+| ⚙️ **Senior Full-Stack Developer** | TypeScript + Python hybrid, Next.js/React frontends, FastAPI/NestJS/Node.js backends, PostgreSQL, real-time systems (Socket.IO), CI/CD pipelines |
+
+### Why I'm different from specialists:
+- **I own the full delivery chain** — from product requirement to Terraform-provisioned infrastructure in production
+- **AI is not a feature I add** — it's the architecture I design systems around (agentic loops, RAG, embeddings, vector search)
+- **I ship, operate, and observe** — 939 live users, 98.32% payment collection, Prometheus metrics, zero unplanned downtime
 
 ---
 
-## Product-to-Production Engine
+## System Architecture
 
 ```mermaid
-flowchart TD
-    A[Product Brief] --> B[Discovery & Design]
-    
-    B --> C[Requirements + Architecture]
-    C --> D[PRD - Complete Spec]
-    D --> E[Story Pipeline]
-    
-    E --> F[Story Definition]
-    F --> G[Acceptance Criteria]
-    G --> H[QA Test Plan]
-    H --> I[Implementation Ready]
-    
-    I --> J[Development]
-    J --> K[Type/Build Gates]
-    K --> L[QA Validation]
-    L --> M[Production Release]
-    
-    M --> N["Build: 149 pages<br/>6 locales<br/>0 errors"]
-    
-    style A fill:#0ea5e9
-    style N fill:#16a34a
-    style B fill:#f59e0b
-    style E fill:#f59e0b
-    style J fill:#ec4899
+graph TD
+    U[Users / Clients] --> LB[Nginx · Load Balancer]
+    CI[GitHub Actions CI/CD] --> LB
+    TF[Terraform IaC] --> |Provision infrastructure| LB
+
+    LB --> API[Node.js / Express · REST API]
+    LB --> AIAPI[FastAPI · AI Engine]
+    LB --> RT[Socket.IO · Real-time]
+
+    API --> PG[(PostgreSQL + pgvector)]
+    API --> MY[(MySQL)]
+    API --> MG[(MongoDB)]
+
+    AIAPI --> LC[LangChain / LangGraph]
+    LC --> LI[LlamaIndex · RAG]
+    LC --> LLM[OpenAI / Claude / Llama 3]
+    LI --> VDB[(Vector Store · pgvector / Pinecone)]
+    PG --> VDB
+
+    API --> PROM[Prometheus]
+    AIAPI --> PROM
+    PROM --> GRAF[Grafana Dashboards]
+
+    CLOUD[AWS · Azure] --> |Bedrock · SageMaker · Lambda| AIAPI
+    CLOUD --> |ECS · EC2 · S3| API
+
+    style U fill:#0ea5e9,color:#fff
+    style LLM fill:#412991,color:#fff
+    style GRAF fill:#F46800,color:#fff
+    style TF fill:#7B42BC,color:#fff
+    style CLOUD fill:#FF9900,color:#fff
+    style VDB fill:#316192,color:#fff
 ```
 
 ---
@@ -85,64 +111,88 @@ flowchart TD
 
 ---
 
-## Technology Landscape
+## Technology Landscape · 2026 Stack
 
 <div align="center">
 
-**Frontend**
+**Languages — Core**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **Backend & APIs**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
 
-**Data**
+**Data & Vector Stores**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20+%20pgvector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**DevOps & Infrastructure**
+**AI Engineering**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-FFA500?style=for-the-badge&logo=llama&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 **AI Models & LLMs**
 
-![OpenAI](https://img.shields.io/badge/OpenAI%20GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![OpenAI GPT](https://img.shields.io/badge/OpenAI%20GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Anthropic%20Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Llama 3](https://img.shields.io/badge/Meta%20Llama%203-0064E0?style=for-the-badge&logo=meta&logoColor=white)
 ![Grok](https://img.shields.io/badge/xAI%20Grok-000000?style=for-the-badge&logo=x&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
 
-**Agentic Frameworks & Platforms**
+**Agentic Platforms**
 
 ![Paperclip](https://img.shields.io/badge/Paperclip%20Runtime-111827?style=for-the-badge&logo=githubactions&logoColor=white)
 ![AIOX](https://img.shields.io/badge/AIOX%20Agents-0ea5e9?style=for-the-badge&logo=probot&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
-**Observability & Analytics**
+**Cloud & Infrastructure**
 
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+**IaC & Containers**
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
+
+**CI/CD & Observability**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
@@ -152,12 +202,92 @@ flowchart TD
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 
 </div>
 
 ---
 
 
+
+## AI Engineering Architecture
+
+### How I design RAG + Agentic Systems
+
+```mermaid
+graph TD
+    DOC[Documents · PDFs · DB Records] --> ING[LlamaIndex Ingestion Pipeline]
+    ING --> EMB[Embedding Model · OpenAI / HuggingFace]
+    EMB --> VS[(Vector Store · pgvector / Pinecone)]
+
+    U[User Query] --> QE[Query Embedding]
+    QE --> VS
+    VS --> CTX[Relevant Context Retrieved]
+
+    CTX --> LG[LangGraph Agentic Loop]
+    LG --> TOOLS[Tool Calls · APIs · DB · Search]
+    LG --> LLM[LLM · GPT-4 / Claude / Llama 3]
+    LLM --> OUT[Structured Response]
+    LLM --> |Reasoning loop| LG
+
+    OUT --> APP[Application Layer · FastAPI / Next.js]
+
+    style VS fill:#316192,color:#fff
+    style LLM fill:#412991,color:#fff
+    style LG fill:#1C3C3C,color:#fff
+    style APP fill:#009688,color:#fff
+```
+
+### Design decisions I apply in production:
+
+| Decision | Why — not just what |
+|---|---|
+| **FastAPI over Express for AI endpoints** | Native async support + Python type hints = streaming LLM responses without event loop hacks |
+| **LangGraph over simple chains** | Stateful agentic loops with conditional routing; required for multi-step document analysis and tool calling |
+| **pgvector over dedicated vector DB** | Colocates vector search with relational data; eliminates sync complexity for structured + unstructured hybrid queries |
+| **LlamaIndex for ingestion** | Production-grade document parsing, chunking strategies, and metadata filtering; not just raw text splitting |
+| **Ollama for local/hybrid inference** | Cost control for high-volume, low-sensitivity tasks; falls back to cloud for complex reasoning |
+| **Prometheus + Grafana for AI observability** | Token usage, latency per model, error rates, and cost tracking per pipeline stage |
+
+---
+
+## Solutions Architecture
+
+### Infrastructure I deploy and maintain
+
+```
+infra/
+├── terraform/
+│   ├── main.tf           # Provider config: AWS / Azure
+│   ├── vpc.tf            # Network isolation
+│   ├── ecs.tf            # Container orchestration (ECS / K8s)
+│   ├── rds.tf            # Managed PostgreSQL
+│   ├── lambda.tf         # Serverless AI endpoints
+│   └── monitoring.tf     # Prometheus + Grafana stack
+docker/
+│   ├── api/Dockerfile    # Node.js / FastAPI service images
+│   ├── ai/Dockerfile     # LangChain + LlamaIndex runtime
+│   └── docker-compose.yml
+.github/
+│   └── workflows/
+│       ├── ci.yml        # Lint + test + typecheck on PR
+│       └── cd.yml        # Deploy on merge to main
+```
+
+### Cloud services I work with:
+
+| Service | Use case |
+|---|---|
+| **AWS Bedrock** | Managed LLM inference (Claude, Llama) without managing GPU infra |
+| **AWS SageMaker** | Fine-tuning and serving custom models; MLOps pipelines |
+| **AWS Lambda** | Serverless AI triggers, webhook handlers, async job runners |
+| **AWS ECS / EC2** | Containerized microservice hosting; auto-scaling groups |
+| **AWS S3** | Document storage for RAG ingestion pipelines |
+| **Azure OpenAI Service** | Enterprise-grade GPT deployment with data residency controls |
+| **Terraform** | Full infrastructure-as-code: provision, version, reproduce entire stacks |
+| **Kubernetes** | Container orchestration for multi-service AI platforms at scale |
+
+---
 
 ## Production Work Highlights
 
@@ -402,22 +532,60 @@ flowchart TD
 
 ## Open to Roles
 
-### I work best in:
-- **AI Engineer** — Building agentic systems, LLM workflows, and AI-assisted delivery at enterprise scale
-- **Solutions Architect** — Designing scalable systems from requirements to production, owning technical decisions
-- **Senior Full-Stack Developer** — End-to-end ownership: React frontend, Node.js backend, database architecture, deployment, and live operations
+### What I'm looking for in 2026:
 
-### What hiring teams should know:
-- **Ship fast**: Built and launched 4 production systems; managed live STCW platform with 939 active users
-- **Shipping doesn't mean breaking things**: 98.32% payment collection rate, zero unplanned downtime, 100% requirement traceability
-- **I own the full stack**: Design, architecture, implementation, testing, deployment, and 24/7 operations
-- **I speak business**: Experience as Product Manager at VTEX; understand how technical decisions impact revenue
-- **I work autonomously**: Comfortable leading distributed teams or working solo; equally comfortable in Agile sprints or startup chaos
+**🤖 AI Engineer**
+> Systems that use LLMs not as toys but as engines. Agentic workflows, RAG pipelines, LangGraph, vector search, production observability on AI costs/latency.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-FFA500?style=flat-square)
+![pgvector](https://img.shields.io/badge/pgvector-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square)
+![Llama 3](https://img.shields.io/badge/Llama%203-0064E0?style=flat-square&logo=meta&logoColor=white)
+
+**🏗️ Solutions Architect**
+> Cloud-native systems designed for resilience, IaC-provisioned from day one, observable from day one. No surprises in production.
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+**⚙️ Senior Full-Stack Developer**
+> Product-to-production ownership. TypeScript + Python. Next.js frontend, FastAPI/Node.js backend, PostgreSQL at scale, real-time systems, CI/CD enforced from PR to deploy.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
+
+### What hiring managers should know:
+
+| Signal | Evidence |
+|---|---|
+| **Ships production systems** | 4 live platforms · 939 active users · 98.32% payment collection |
+| **Architects, not just codes** | IaC, K8s, microservices, observability, data models designed from scratch |
+| **AI is core, not cosmetic** | LangGraph agentic loops, RAG pipelines, vector stores, LLM integration in production |
+| **Speaks business** | VTEX Product Manager · Bancolombia · Nu Brasil · enterprise SLA compliance |
+| **Operates what I build** | 24/7 ops, incident response, Grafana dashboards, Prometheus metrics |
+| **Works autonomously** | Every project sole engineer: PO → Architect → Dev → DevOps → QA → Writer |
 
 ---
 
 ## Let's Talk
 
-**If you're building:** AI-powered systems, SaaS platforms, or scalable architecture, and you want someone who can connect strategy, architecture, and execution—[let's connect](https://linkedin.com/in/robertgaraban).
+**If you're building:** AI-powered systems, SaaS platforms, or scalable cloud architecture, and you need someone who can own it from architecture diagram to production deploy—[let's connect](https://linkedin.com/in/robertgaraban).
 
-**Current focus:** Remote roles, distributed teams, and projects where technical excellence meets business impact.
+**Available for:** Remote-first roles · Distributed teams · Technical leadership · AI engineering · Solutions architecture
