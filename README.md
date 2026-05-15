@@ -4,25 +4,13 @@
 
 ### AI Engineer · Solutions Architect · Senior Full-Stack Developer
 
-Barcelona, Spain (open to Madrid relocation) · [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com)  
-[LinkedIn](https://linkedin.com/in/robertgaraban) · [GitHub](https://github.com/Robertgaraban) · [HydroAbyss](https://hydroabyss.com)
-
-<p>
-  <img src="https://img.shields.io/badge/Built_with-Paperclip-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Powered_by-OpenAI%20Codex-0ea5e9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
-  <img src="https://img.shields.io/badge/Turborepo-6-ef4444?style=for-the-badge&logo=turborepo" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Locales-6-16a34a?style=flat-square" />
-  <img src="https://img.shields.io/badge/Pages-149-16a34a?style=flat-square" />
-  <img src="https://img.shields.io/badge/Stories-69-16a34a?style=flat-square" />
-</p>
-
-</div>
+**Barcelona, Spain** · [Email](mailto:robertgaraban@gmail.com) · [LinkedIn](https://linkedin.com/in/robertgaraban) · [GitHub](https://github.com/Robertgaraban) · [HydroAbyss](https://hydroabyss.com)
 
 ---
+
+**I design and ship production-grade AI-powered platforms with architectural rigor, scaling from 0 to 939+ concurrent users with 98.32% business success metrics.**
+
+</div>
 
 ## Executive Positioning
 
@@ -240,9 +228,22 @@ Commercial acquisition site for technical services and business consultations.
 
 ## Open to Roles
 
-I am available for:
-- **AI Engineer**
-- **Solutions Architect**
-- **Senior Full-Stack / Technical Product Leadership**
+### I work best in:
+- **AI Engineer** — Building agentic systems, LLM workflows, and AI-assisted delivery at enterprise scale
+- **Solutions Architect** — Designing scalable systems from requirements to production, owning technical decisions
+- **Senior Full-Stack Developer** — End-to-end ownership: React frontend, Node.js backend, database architecture, deployment, and live operations
 
-If you need someone who can connect **strategy, architecture, and execution** with measurable delivery performance, let’s talk.
+### What hiring teams should know:
+- **Ship fast**: Built and launched 4 production systems; managed live STCW platform with 939 active users
+- **Shipping doesn't mean breaking things**: 98.32% payment collection rate, zero unplanned downtime, 100% requirement traceability
+- **I own the full stack**: Design, architecture, implementation, testing, deployment, and 24/7 operations
+- **I speak business**: Experience as Product Manager at VTEX; understand how technical decisions impact revenue
+- **I work autonomously**: Comfortable leading distributed teams or working solo; equally comfortable in Agile sprints or startup chaos
+
+---
+
+## Let's Talk
+
+**If you're building:** AI-powered systems, SaaS platforms, or scalable architecture, and you want someone who can connect strategy, architecture, and execution—[let's connect](https://linkedin.com/in/robertgaraban).
+
+**Current focus:** Remote roles, distributed teams, and projects where technical excellence meets business impact.
