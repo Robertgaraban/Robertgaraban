@@ -87,36 +87,52 @@ flowchart TD
 
 ## Technology Landscape
 
-### Frontend & User Experience
-- **React** | TypeScript | JavaScript | Vite
-- **CSS**: HTML5, CSS3, Tailwind, Bootstrap
-- **Other frameworks**: Angular, Vue.js (production experience)
+<div align="center">
 
-### Backend & APIs
-- **Node.js** | Express | PHP
-- **API design**: REST, GraphQL
-- **Real-time**: Socket.IO for live collaboration and notifications
+**Frontend**
 
-### Data & Persistence
-- **Relational**: PostgreSQL, MySQL (production, enterprise-scale)
-- **NoSQL**: MongoDB (integration experience)
-- **Transactions**: Payment processing, ACID compliance, data integrity
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### Security & Access
-- **Authentication**: JWT, OAuth patterns
-- **Authorization**: RBAC (role-based access control) for regulated environments
-- **Data protection**: Encryption, compliance-ready architectures
+**Backend & APIs**
 
-### Deployment & Operations
-- **Infrastructure**: Docker, Nginx, PM2, Linux VPS
-- **CI/CD**: GitHub Actions, automated testing and releases
-- **Observability**: Logging, error tracking, uptime monitoring
-- **Scalability**: Load balancing, containerization, production hardening
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
 
-### AI & Productivity
-- **LLMs**: Integration with OpenAI API for assisted workflows
-- **Document processing**: OCR, parsing, automated document extraction
-- **Agentic patterns**: Paperclip runtime, prompt-driven delivery
+**Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**DevOps & Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
+
+**AI & Tooling**
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
+
+</div>
 
 ---
 
@@ -124,24 +140,147 @@ flowchart TD
 
 ## Production Work Highlights
 
-### ABYSS — [app.stcw.site](https://app.stcw.site)
-SaaS platform for STCW operations: academic workflows, certifications, invoicing, communications, reporting, and role-based access.  
-**Stack:** React, Node.js, Express, PostgreSQL, JWT/RBAC, Socket.IO, PM2, Nginx  
-**Repo:** [abyss-stcw-brief](https://github.com/Robertgaraban/abyss-stcw-brief)
+<div align="center">
 
-### mNóminas — [nomina.atlantechmarine.com](https://nomina.atlantechmarine.com)
-Payroll operations platform for records, payment processing, and cost control.  
-**Stack:** React, Vite, PHP REST API, MySQL  
-**Repo:** [nominas-showcase](https://github.com/Robertgaraban/nominas-showcase)
+### 🎯 Every project below was delivered end-to-end by a single engineer
 
-### HydroAbyss — [hydroabyss.com](https://hydroabyss.com)
-Technical content platform with editorial workflow and specialized publishing.  
-**Stack:** HTML, CSS, JavaScript  
-**Repo:** [hydroabyss-showcase](https://github.com/Robertgaraban/hydroabyss-showcase)
+| Role | Status |
+|:---:|:---:|
+| ![Product Owner](https://img.shields.io/badge/Product%20Owner-%230ea5e9?style=flat-square) | ✅ Requirements, roadmap, backlog, prioritization |
+| ![Solutions Architect](https://img.shields.io/badge/Solutions%20Architect-%23f59e0b?style=flat-square) | ✅ System design, data model, API contracts, tech decisions |
+| ![Scrum Master](https://img.shields.io/badge/Scrum%20Master-%238b5cf6?style=flat-square) | ✅ Sprint planning, stories, acceptance criteria, retrospectives |
+| ![Full-Stack Developer](https://img.shields.io/badge/Full--Stack%20Developer-%23ec4899?style=flat-square) | ✅ Frontend, backend, integrations, real-time systems |
+| ![DevOps Engineer](https://img.shields.io/badge/DevOps%20Engineer-%2316a34a?style=flat-square) | ✅ Docker, Nginx, PM2, Linux VPS, CI/CD pipelines |
+| ![QA Engineer](https://img.shields.io/badge/QA%20Engineer-%23ef4444?style=flat-square) | ✅ Test plans, acceptance testing, build gates, rework < 1% |
+| ![Tech Writer](https://img.shields.io/badge/Tech%20Writer-%236b7280?style=flat-square) | ✅ Full documentation, traceability from spec to production |
 
-### AtlantechMarine — [atlantechmarine.com](https://atlantechmarine.com)
-Commercial acquisition site for technical services and business consultations.  
-**Stack:** HTML, CSS, Bootstrap, JavaScript
+</div>
+
+---
+
+### 🏆 ABYSS — Enterprise SaaS Platform for STCW Maritime Operations
+
+> **Live production system** · [app.stcw.site](https://app.stcw.site) · [Showcase Repo](https://github.com/Robertgaraban/abyss-stcw-brief)
+
+**The challenge:** Build a regulated, multi-role SaaS platform for maritime STCW certifications—handling academic workflows, legal certifications, real-time operations, billing, and communications for hundreds of concurrent users.
+
+**What was delivered:**
+
+| Capability | Detail |
+|---|---|
+| 🎓 Academic Management | Enrollments, course editions, student records, certificates |
+| 💳 Billing & Payments | 1,252 invoices · **98.32% collection rate** · payment flows |
+| 🔒 Security & Access | JWT/RBAC · multi-role permissions for regulated maritime environment |
+| 📡 Real-time Operations | Socket.IO · live updates, notifications, document processing |
+| 📊 Reporting | Operational dashboards, audit trails, export workflows |
+| 📧 Communications | Internal messaging, automated notifications |
+
+**Live business impact:**
+
+<div align="center">
+
+![939 Active Students](https://img.shields.io/badge/Active%20Students-939-0ea5e9?style=for-the-badge)
+![1273 Enrollments](https://img.shields.io/badge/Enrollments-1%2C273-16a34a?style=for-the-badge)
+![98.32% Collection](https://img.shields.io/badge/Collection%20Rate-98.32%25-f59e0b?style=for-the-badge)
+![373 Course Editions](https://img.shields.io/badge/Course%20Editions-373-8b5cf6?style=for-the-badge)
+
+</div>
+
+**Full stack:**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+---
+
+### 💰 mNóminas — Payroll Operations Platform
+
+> **Live production system** · [nomina.atlantechmarine.com](https://nomina.atlantechmarine.com) · [Showcase Repo](https://github.com/Robertgaraban/nominas-showcase)
+
+**The challenge:** Build a financial-grade payroll system for a maritime company—managing employee records, salary processing, payment control, and cost tracking with full auditability.
+
+**What was delivered:**
+
+| Capability | Detail |
+|---|---|
+| 👥 Employee Records | Contracts, roles, history, document management |
+| 💸 Payment Processing | Payroll runs, calculation engine, payment orders |
+| 📋 Cost Control | Budget tracking, cost center reporting, variance analysis |
+| 🔍 Audit Trail | Full traceability of every financial operation |
+| 📄 Document Export | Payslips, reports, regulatory exports |
+
+**Full stack:**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+---
+
+### 📡 HydroAbyss — Specialized Technical Publishing Platform
+
+> **Live production platform** · [hydroabyss.com](https://hydroabyss.com) · [Showcase Repo](https://github.com/Robertgaraban/hydroabyss-showcase)
+
+**The challenge:** Build a technical content platform with a full editorial workflow for specialized maritime and engineering content—structured publishing, SEO architecture, and audience growth.
+
+**What was delivered:**
+
+| Capability | Detail |
+|---|---|
+| 📝 Editorial Workflow | Content creation, review, scheduling, publication pipeline |
+| 🗂️ Content Architecture | Category taxonomy, tagging, related content, search |
+| 📈 SEO Infrastructure | Structured data, meta management, sitemap, canonical URLs |
+| 🌐 Performance | Optimized load times, static asset strategy, CDN-ready |
+| 📊 Analytics | Audience tracking, content performance metrics |
+
+**Full stack:**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+---
+
+### 🚢 AtlantechMarine — Commercial Acquisition Platform
+
+> **Live production site** · [atlantechmarine.com](https://atlantechmarine.com)
+
+**The challenge:** Design and build a high-conversion commercial site for a maritime technical services company—clear service positioning, conversion-optimized structure, and enterprise-ready credibility.
+
+**What was delivered:**
+
+| Capability | Detail |
+|---|---|
+| 🎯 Conversion Architecture | Service pages, CTAs, contact flows optimized for B2B acquisition |
+| 📱 Responsive Design | Mobile-first, cross-browser compatibility |
+| ⚡ Performance | Optimized assets, fast load times, Core Web Vitals compliance |
+| 🔍 SEO | Technical SEO foundation, structured metadata, indexability |
+
+**Full stack:**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ---
 
