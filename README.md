@@ -1,137 +1,216 @@
 <div align="center">
 
-# ROBERT GARABAN GARCIAS
+# Robert Garaban Garcias
 
-**Ingeniero de IA | Senior Full-Stack Developer | Gerente de Producto**
+### AI Engineer · Solutions Architect · Senior Full-Stack Developer
 
-Badalona, Barcelona (disponibilidad para traslado a Madrid) · [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) · +34 600 36 70 28  
+Barcelona, Spain (open to Madrid relocation) · [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com)  
 [LinkedIn](https://linkedin.com/in/robertgaraban) · [GitHub](https://github.com/Robertgaraban) · [HydroAbyss](https://hydroabyss.com)
+
+<p>
+  <img src="https://img.shields.io/badge/Built_with-Paperclip-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered_by-OpenAI%20Codex-0ea5e9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/Turborepo-6-ef4444?style=for-the-badge&logo=turborepo" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Locales-6-16a34a?style=flat-square" />
+  <img src="https://img.shields.io/badge/Pages-149-16a34a?style=flat-square" />
+  <img src="https://img.shields.io/badge/Stories-69-16a34a?style=flat-square" />
+</p>
 
 </div>
 
 ---
 
-## PERFIL EJECUTIVO
+## Executive Positioning
 
-Ingeniero orientado a producto con enfoque **end-to-end**: definición estratégica, diseño técnico, implementación Full-Stack, despliegue en producción y operación continua.
+I design and ship production platforms where **AI, architecture, and product execution** work as one system.
 
-Mi propuesta de valor combina tres capacidades en una misma función:
-- **Ingeniería de IA aplicada:** incorporación pragmática de automatización, asistentes y flujos inteligentes para acelerar operaciones y mejorar la toma de decisiones.
-- **Senior Full-Stack delivery:** capacidad de construir y evolucionar plataformas SaaS completas (frontend, backend, datos, seguridad y observabilidad).
-- **Gestión de producto:** priorización por impacto, dirección de roadmap y alineación entre negocio, tecnología y experiencia de usuario.
-
-Trabajo con foco en resultados medibles: tiempo de entrega, estabilidad operativa, adopción de usuarios y calidad de servicio en entornos reales.
+What I sell to high-performance teams:
+- **Faster delivery without quality loss**
+- **Traceable execution from requirements to production**
+- **Scalable architecture with measurable business impact**
 
 ---
 
-## ENFOQUE PROFESIONAL
+## Product-to-Production Engine
 
-- Transformo objetivos de negocio en iniciativas técnicas priorizadas por valor.
-- Diseño arquitecturas mantenibles con visión de escalabilidad y costo operativo.
-- Entrego funcionalidades con trazabilidad funcional y operativa (de requerimiento a producción).
-- Lidero la ejecución transversal entre stakeholders de producto, ingeniería y operación.
-- Impulso una cultura de mejora continua apoyada en datos, feedback y automatización.
+```mermaid
+flowchart TD
+    A[Product Brief - Human] --> B
 
----
+    subgraph P1[PHASE 1 — Discovery & Design · AIOX Agents]
+      B[Research]
+      C[Brand Positioning]
+      D[PRD - 692 lines / 50 FRs]
+      E[Information Architecture]
+      F[UX/UI Spec]
+      G[Content Spec]
+      H[Technical Architecture]
+      I[Data Model]
+      J[WBS]
+      B --> C --> D --> E --> F --> G --> H --> I --> J
+    end
 
-## ÁREAS DE IMPACTO
+    J --> K
 
-### 1) Ingeniería de IA aplicada al producto
-- Integración de capacidades AI-assisted en ciclos de desarrollo y operación.
-- Automatización de flujos repetitivos y soporte a decisiones con datos del negocio.
-- Diseño de experiencias de producto donde IA aporta eficiencia real (no solo features “cosméticas”).
+    subgraph P2[PHASE 2 — Story Pipeline · AIOX Agents]
+      K[@sm drafts story]
+      L[@po validates - 10-point checklist]
+      M[Acceptance Criteria]
+      N[QA Test Plan]
+      O[69 stories / 12 epics]
+      K --> L --> M --> N --> O
+    end
 
-### 2) Desarrollo Full-Stack senior
-- Construcción de aplicaciones web robustas en stack JavaScript/TypeScript + servicios backend.
-- Diseño de APIs, lógica de negocio y modelos de datos para sistemas en producción.
-- Integraciones con terceros, autenticación/autorización y control de acceso por roles.
+    O --> P
 
-### 3) Gestión de producto y entrega
-- Roadmap, backlog y priorización por impacto.
-- Definición de objetivos, KPIs y criterios de aceptación.
-- Coordinación entre áreas para garantizar entregas predecibles y sostenibles.
-
----
-
-## STACK Y COMPETENCIAS CLAVE
-
-- **Backend:** Node.js, Express, PHP, APIs REST, diseño modular de servicios, integraciones con terceros.
-- **Frontend:** React, TypeScript, JavaScript, Vite, HTML5, CSS3, Bootstrap.
-- **Datos:** PostgreSQL, MySQL, MongoDB en contexto enterprise.
-- **Arquitectura y calidad:** clean code, diseño mantenible, autenticación/autorización, RBAC, documentación técnica.
-- **Operación y delivery:** Docker, GitHub, Jira, Agile, releases, soporte en vivo, continuidad operativa.
-- **Infraestructura y despliegue:** Nginx, PM2, VPS Linux, operación de aplicaciones web en producción.
-- **Gestión de producto:** discovery, priorización, definición funcional, seguimiento de KPIs y mejora continua.
-
----
-
-## EXPERIENCIA PROFESIONAL
-
-### Fundador y Full-Stack Developer | HydroAbyss / Consulting RG
-**2024 – Presente | Barcelona, España**
-
-- Diseñé, construí y lancé 4 sistemas web en producción para operaciones STCW, nómina, contenido técnico y captación comercial.
-- Entregué una plataforma SaaS STCW que soporta **939 alumnos activos**, **1.273 matrículas confirmadas** y **373 ediciones de curso**, con **98,32% de cobro** sobre **1.252 facturas**.
-- Asumí responsabilidad completa sobre arquitectura, evolución de modelo de datos, releases y soporte en vivo.
-- Implementé flujos de autenticación, control por roles y protección de datos para contextos operativos regulados.
-
-### Product Manager | VTEX
-**2021 – 2023 | Remoto, Brasil**
-
-- Coordiné roadmap, backlog y seguimiento de KPIs junto a equipos de ingeniería y diseño en VTEX Commerce Cloud.
-- Participé en despliegues enterprise para cuentas como Bancolombia y Nu Brasil, alineando entregas técnicas con requisitos de seguridad, acceso y SLA.
-- Colaboré en contextos de microservicios y flujos event-driven, incluyendo integraciones basadas en Kafka.
-
-### Product Technical Analyst (PTA) | VTEX
-**2018 – 2022 | Remoto, Brasil**
-
-- Gestioné gobierno de accesos, seguridad operativa e incidencias críticas bajo acuerdos de servicio.
-- Actué como puente técnico entre producto, soporte e ingeniería para resolver integraciones complejas.
-- Colaboré con herramientas y flujos sobre Angular/Vue, APIs REST y GraphQL.
+    subgraph P3[PHASE 3 — Implementation · Paperclip Runtime Agents]
+      P[@dev implements]
+      Q[@qa gates]
+      R[@devops pushes]
+      S[Build: 149 pages / 0 errors / 6 locales]
+      P --> Q --> R --> S
+    end
+```
 
 ---
 
-## PROYECTOS EN PRODUCCIÓN
+## Real Metrics — Sprint 0 (May 6–8, 2026)
+
+**Verified in Prometheus**  
+`{job="atlantech_ai_metrics", repo="atlantechmarine"}`
+
+| Metric | Value | Human-team baseline | Advantage |
+|---|---:|---:|---:|
+| AI code lines added/day | **472,542** | 50–200 LOC/day | **2,362x–9,451x** |
+| AI code lines deleted/day | 1,238 | — | — |
+| AI code files changed/day | 1,594 | — | — |
+| AI code commits/day | 3 | 1–3/day | Top of range |
+| Typecheck pass rate | **100%** | 85–95% | +5 to +15 pts |
+| Build failure rate | **0%** | 5–15% | -5 to -15 pts |
+| First-pass success rate | **100%** | 60–80% | +20 to +40 pts |
+| Rework rate | **0.26%** | 15–25% | **~58x–96x lower** |
+| Requirement traceability | **100%** | 60–80% | +20 to +40 pts |
+| Docs updated with code | **100%** | 30–50% | +50 to +70 pts |
+| Lead time | **2.5h** | 24–72h | **9.6x–28.8x faster** |
+| Story points completed/week | **69 SP** | 5–15 SP/sprint | **4.6x–13.8x** |
+
+**Rework formula:** `1,238 deleted / 472,542 added = 0.26%`
+
+### Visual performance snapshot
+
+- Delivery speed: `████████████████████ 100%` (2.5h vs 24–72h baseline)
+- Quality gates: `████████████████████ 100%` (typecheck + first pass)
+- Rework control: `█░░░░░░░░░░░░░░░░░░░ 0.26%`
+- Traceability: `████████████████████ 100%`
+
+---
+
+## Technology Landscape
+
+### AI & Agentic Delivery
+- OpenAI Codex
+- Paperclip runtime agents
+- AIOX agents
+- Prompt-driven product and engineering workflows
+
+### Frontend & Experience
+- Next.js 15
+- React + TypeScript
+- Tailwind / CSS systems
+- Story-driven UI delivery
+
+### Backend & APIs
+- Node.js, Express
+- PHP REST APIs
+- JWT authentication
+- RBAC authorization
+- Socket.IO
+
+### Data & Analytics
+- PostgreSQL
+- MySQL
+- MongoDB
+- Prometheus metrics and operational observability
+
+### Platform & Operations
+- Turborepo
+- Docker
+- Nginx
+- PM2
+- Linux VPS
+- GitHub Actions
+
+---
+
+## Portfolio Benchmark (GitHub topic: `personal-portfolio`)
+
+| Repository | Stars* | Why it performs well | My takeaway |
+|---|---:|---|---|
+| [said7388/developer-portfolio](https://github.com/said7388/developer-portfolio) | 2.3k+ | Strong structure, clear sections, visual hierarchy, modern stack narrative | **Best reference for clarity + conversion-oriented presentation** |
+| [vivek9patel/vivek9patel.github.io](https://github.com/vivek9patel/vivek9patel.github.io) | 4.3k+ | Highly original concept and visual identity | Use bold visual storytelling to stand out |
+| [varadbhogayata/varadbhogayata.github.io](https://github.com/varadbhogayata/varadbhogayata.github.io) | 1.4k+ | Simple structure and easy adaptation | Keep core sections fast to scan |
+
+\*Stars observed from GitHub search at update time.
+
+**How this profile differentiates:** it combines the visual clarity of top templates with **real operational metrics**, **traceability evidence**, and **enterprise delivery outcomes**.
+
+---
+
+## Production Work Highlights
 
 ### ABYSS — [app.stcw.site](https://app.stcw.site)
-Plataforma SaaS STCW con gestión académica, certificaciones, facturación, comunicaciones, reporting y control de acceso por roles.  
-**Stack:** React, Node.js, Express, PostgreSQL, JWT/RBAC, Socket.IO, PM2, Nginx.  
+SaaS platform for STCW operations: academic workflows, certifications, invoicing, communications, reporting, and role-based access.  
+**Stack:** React, Node.js, Express, PostgreSQL, JWT/RBAC, Socket.IO, PM2, Nginx  
 **Repo:** [abyss-stcw-brief](https://github.com/Robertgaraban/abyss-stcw-brief)
 
 ### mNóminas — [nomina.atlantechmarine.com](https://nomina.atlantechmarine.com)
-Aplicación de operaciones de nómina para expedientes, procesos de pago y control de costes.  
-**Stack:** React, Vite, PHP REST API, MySQL.  
+Payroll operations platform for records, payment processing, and cost control.  
+**Stack:** React, Vite, PHP REST API, MySQL  
 **Repo:** [nominas-showcase](https://github.com/Robertgaraban/nominas-showcase)
 
 ### HydroAbyss — [hydroabyss.com](https://hydroabyss.com)
-Plataforma de contenido técnico con flujo editorial y publicación especializada.  
-**Stack:** HTML, CSS, JavaScript.  
+Technical content platform with editorial workflow and specialized publishing.  
+**Stack:** HTML, CSS, JavaScript  
 **Repo:** [hydroabyss-showcase](https://github.com/Robertgaraban/hydroabyss-showcase)
 
 ### AtlantechMarine — [atlantechmarine.com](https://atlantechmarine.com)
-Web de captación comercial para servicios técnicos y consultas de negocio.  
-**Stack:** HTML, CSS, Bootstrap, JavaScript.
+Commercial acquisition site for technical services and business consultations.  
+**Stack:** HTML, CSS, Bootstrap, JavaScript
 
 ---
 
-## FORMACIÓN
+## Delivery Habits That Protect Results
 
-- Toti (Brasil) · Desarrollador Full-Stack · 2020
-- Tera (Brasil) · Liderazgo de Producto Digital · 2021 – 2022
-- Escuela Naval de Venezuela · Licenciado en Ciencias Navales · 2004
-- Universidad de Carabobo · Desarrollador Full Stack · 1997
-
----
-
-## IDIOMAS
-
-- Español: Nativo
-- Portugués: Nativo / Bilingüe
-- Inglés: Nivel profesional de trabajo
+- Product briefs converted into measurable requirements before coding starts.
+- Mandatory acceptance criteria and QA test plan per story.
+- Typecheck/build gates enforced before release.
+- Documentation updated with every relevant code change.
+- Requirement-to-implementation traceability kept at 100% target.
+- Security and access controls treated as architecture, not afterthoughts.
 
 ---
 
-## 📊 GitHub
+## Professional Experience
+
+- **Founder & Full-Stack Developer · HydroAbyss / Consulting RG** (2024–Present)
+- **Product Manager · VTEX** (2021–2023)
+- **Product Technical Analyst · VTEX** (2018–2022)
+
+---
+
+## Languages
+
+- Spanish: Native
+- Portuguese: Native/Bilingual
+- English: Professional working proficiency
+
+---
+
+## GitHub Insights
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Robertgaraban&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
@@ -142,8 +221,6 @@ Web de captación comercial para servicios técnicos y consultas de negocio.
   <img src="https://streak-stats.demolab.com?user=Robertgaraban&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </div>
 
----
-
 <div align="center">
 
 <picture>
@@ -153,3 +230,14 @@ Web de captación comercial para servicios técnicos y consultas de negocio.
 </picture>
 
 </div>
+
+---
+
+## Open to Roles
+
+I am available for:
+- **AI Engineer**
+- **Solutions Architect**
+- **Senior Full-Stack / Technical Product Leadership**
+
+If you need someone who can connect **strategy, architecture, and execution** with measurable delivery performance, let’s talk.
