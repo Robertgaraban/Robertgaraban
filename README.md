@@ -2,7 +2,7 @@
 
 # ROBERT GARABAN GARCIAS
 
-**Senior Full-Stack Developer | Node.js + React + TypeScript**
+**Ingeniero de IA | Senior Full-Stack Developer | Gerente de Producto**
 
 Badalona, Barcelona (disponibilidad para traslado a Madrid) · [robertgaraban@gmail.com](mailto:robertgaraban@gmail.com) · +34 600 36 70 28  
 [LinkedIn](https://linkedin.com/in/robertgaraban) · [GitHub](https://github.com/Robertgaraban) · [HydroAbyss](https://hydroabyss.com)
