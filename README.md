@@ -127,10 +127,31 @@ flowchart TD
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
 
-**AI & Tooling**
+**AI Models & LLMs**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI%20GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Anthropic%20Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Grok](https://img.shields.io/badge/xAI%20Grok-000000?style=for-the-badge&logo=x&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
+
+**Agentic Frameworks & Platforms**
+
+![Paperclip](https://img.shields.io/badge/Paperclip%20Runtime-111827?style=for-the-badge&logo=githubactions&logoColor=white)
+![AIOX](https://img.shields.io/badge/AIOX%20Agents-0ea5e9?style=for-the-badge&logo=probot&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+
+**Observability & Analytics**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+**Project & Delivery**
+
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 
 </div>
 
@@ -162,6 +183,10 @@ flowchart TD
 
 > **Live production system** · [app.stcw.site](https://app.stcw.site) · [Showcase Repo](https://github.com/Robertgaraban/abyss-stcw-brief)
 
+![AIOX Agents](https://img.shields.io/badge/Built%20with-AIOX%20Agents-0ea5e9?style=flat-square&logo=probot&logoColor=white)
+![Paperclip](https://img.shields.io/badge/Runtime-Paperclip-111827?style=flat-square&logo=githubactions&logoColor=white)
+![AI Assisted](https://img.shields.io/badge/AI--Assisted%20Delivery-412991?style=flat-square&logo=openai&logoColor=white)
+
 **The challenge:** Build a regulated, multi-role SaaS platform for maritime STCW certifications—handling academic workflows, legal certifications, real-time operations, billing, and communications for hundreds of concurrent users.
 
 **What was delivered:**
@@ -183,6 +208,8 @@ flowchart TD
 ![1273 Enrollments](https://img.shields.io/badge/Enrollments-1%2C273-16a34a?style=for-the-badge)
 ![98.32% Collection](https://img.shields.io/badge/Collection%20Rate-98.32%25-f59e0b?style=for-the-badge)
 ![373 Course Editions](https://img.shields.io/badge/Course%20Editions-373-8b5cf6?style=for-the-badge)
+![406 Certificates](https://img.shields.io/badge/Certificates%20Issued-406-ec4899?style=for-the-badge)
+![3066 Emails](https://img.shields.io/badge/Automated%20Emails-3%2C066-6366f1?style=for-the-badge)
 
 </div>
 
@@ -199,6 +226,8 @@ flowchart TD
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
 ---
 
@@ -262,7 +291,13 @@ flowchart TD
 
 > **Live production site** · [atlantechmarine.com](https://atlantechmarine.com)
 
-**The challenge:** Design and build a high-conversion commercial site for a maritime technical services company—clear service positioning, conversion-optimized structure, and enterprise-ready credibility.
+![AIOX Agents](https://img.shields.io/badge/Built%20with-AIOX%20Agents-0ea5e9?style=flat-square&logo=probot&logoColor=white)
+![Paperclip](https://img.shields.io/badge/Runtime-Paperclip-111827?style=flat-square&logo=githubactions&logoColor=white)
+![149 Pages](https://img.shields.io/badge/Pages-149-16a34a?style=flat-square)
+![6 Locales](https://img.shields.io/badge/Locales-6-f59e0b?style=flat-square)
+![0 Errors](https://img.shields.io/badge/Build%20Errors-0-16a34a?style=flat-square)
+
+**The challenge:** Design and build a high-conversion commercial site for a maritime technical services company—clear service positioning, conversion-optimized structure, and enterprise-ready credibility. Built with AI-agentic delivery pipeline (AIOX + Paperclip), scaling to 149 pages across 6 locales with zero build errors.
 
 **What was delivered:**
 
