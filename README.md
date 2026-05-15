@@ -23,6 +23,20 @@
 
 </div>
 
+## ⚡ 30-Second Technical Read
+
+> For technical recruiters and senior engineers who want the signal fast.
+
+| Dimension | What you're evaluating |
+|---|---|
+| **Primary stack** | Python · TypeScript · FastAPI · React/Next.js · PostgreSQL + pgvector · LangGraph · LlamaIndex |
+| **AI in production** | RAG pipelines (RAGAS-evaluated) · LangGraph agentic loops · LLM cost tracking per pipeline stage · Pydantic guardrails · LangSmith prompt traces |
+| **Scale proven** | 939 active users · 98.32% collection rate · 4 live systems · 24/7 incident response · sole end-to-end engineer |
+| **Architecture** | Terraform IaC · Docker + Kubernetes · AWS Bedrock/Lambda/SageMaker · Prometheus + Grafana observability |
+| **Verifiable now** | [ABYSS live](https://app.stcw.site) · [showcase repo](https://github.com/Robertgaraban/abyss-stcw-brief) · [mNóminas live](https://nomina.atlantechmarine.com) · [HydroAbyss](https://hydroabyss.com) |
+
+---
+
 ## Executive Positioning
 
 I design and ship **production-grade systems** at the intersection of AI engineering, cloud architecture, and full-stack product delivery. I bridge strategy and execution: from LangGraph agentic pipelines and RAG architectures to React/Next.js frontends, FastAPI AI endpoints, and Terraform-provisioned infrastructure.
@@ -249,6 +263,17 @@ graph TD
 | **Ollama for local/hybrid inference** | Cost control for high-volume, low-sensitivity tasks; falls back to cloud for complex reasoning |
 | **Prometheus + Grafana for AI observability** | Token usage, latency per model, error rates, and cost tracking per pipeline stage |
 
+### LLM Engineering in Production — the depth that matters
+
+| Concern | How I handle it in production |
+|---|---|
+| **Model evaluation** | RAGAS metrics on every RAG pipeline (faithfulness · answer relevancy · context recall); threshold-gated before deploy |
+| **Guardrails** | Pydantic v2 schema validation on every LLM structured output; automatic retry with refined prompt on validation failure; fallback to deterministic logic |
+| **Prompt observability** | LangSmith traces per conversation turn; custom Prometheus counters per prompt template and model; alert on token spike anomalies |
+| **Cost per token** | Token usage logged per pipeline stage; model routing by task complexity — Ollama local → GPT-3.5 → GPT-4/Claude based on confidence threshold; budget alerts on cost-per-query regression |
+| **Latency management** | Streaming via FastAPI SSE for user-facing calls; async batch processing for background ingestion; p95 < 3s target enforced via Grafana SLO |
+| **Context window discipline** | Chunk size + overlap tuned per document type; metadata pre-filters to reduce retrieved context before the LLM call; re-ranking on top-k results |
+
 ---
 
 ## Solutions Architecture
@@ -286,6 +311,22 @@ docker/
 | **Azure OpenAI Service** | Enterprise-grade GPT deployment with data residency controls |
 | **Terraform** | Full infrastructure-as-code: provision, version, reproduce entire stacks |
 | **Kubernetes** | Container orchestration for multi-service AI platforms at scale |
+
+---
+
+## Verifiable Technical Work
+
+> Everything below is live or inspectable right now — code, running systems, and technical writing in production.
+
+| Type | Link | What to verify |
+|---|---|---|
+| 🔴 **Live Platform** | [app.stcw.site](https://app.stcw.site) | Multi-role SaaS: JWT/RBAC auth, real-time Socket.IO ops, billing engine, 939 active users |
+| 🔴 **Live Platform** | [nomina.atlantechmarine.com](https://nomina.atlantechmarine.com) | Financial-grade payroll: employee records, payment runs, audit trail, cost control |
+| 🔴 **Live Site** | [atlantechmarine.com](https://atlantechmarine.com) | 149-page / 6-locale site with zero build errors — delivered via AIOX + Paperclip agentic pipeline |
+| 🔴 **Live Platform** | [hydroabyss.com](https://hydroabyss.com) | Technical publishing: editorial workflow, SEO architecture, structured content at scale |
+| 💻 **Showcase Repo** | [abyss-stcw-brief](https://github.com/Robertgaraban/abyss-stcw-brief) | Architecture diagrams, data model, API design patterns, key engineering decisions |
+| 💻 **Showcase Repo** | [nominas-showcase](https://github.com/Robertgaraban/nominas-showcase) | System design, DB schema, financial workflow documentation |
+| 📝 **Technical Writing** | [HydroAbyss Engineering](https://hydroabyss.com) | Maritime + engineering articles — structured publishing, domain expertise, audience growth |
 
 ---
 
@@ -720,6 +761,20 @@ timeline
 | **Speaks business** | VTEX Product Manager · Bancolombia · Nu Brasil · enterprise SLA compliance |
 | **Operates what I build** | 24/7 ops, incident response, Grafana dashboards, Prometheus metrics |
 | **Works autonomously** | Every project sole engineer: PO → Architect → Dev → DevOps → QA → Writer |
+
+---
+
+## Technical Writing & Public Presence
+
+> Learning in public and building a technical voice.
+
+| Channel | Topic | Link |
+|---|---|---|
+| 📝 **HydroAbyss** | Maritime engineering, offshore ops, naval systems — specialized domain content | [hydroabyss.com](https://hydroabyss.com) |
+| 💼 **LinkedIn** | AI engineering, product delivery, architecture decisions — professional commentary | [linkedin.com/in/robertgaraban](https://linkedin.com/in/robertgaraban) |
+| 💻 **GitHub** | Showcase repos, architecture documentation, AI delivery tooling experiments | [github.com/Robertgaraban](https://github.com/Robertgaraban) |
+
+> **Currently writing about:** RAG pipeline design decisions, LangGraph agentic patterns, and the gap between "AI demo" and "AI in production."
 
 ---
 
