@@ -46,7 +46,7 @@ Español y portugués nativos · Inglés B1.
 
 ## Disponibilidad
 
-Abierto a proyectos y puestos de consultoría de IA aplicada, transformación de procesos con IA y Product Owner o Technical Product Manager, en cualquier sector. Presencial o híbrido en Barcelona y remoto en toda España, con disponibilidad para viajes ocasionales.
+Abierto a proyectos y puestos de consultoría de IA aplicada, transformación de procesos con IA y Product Owner, en cualquier sector. Presencial o híbrido en Barcelona y remoto en toda España, con disponibilidad para viajes ocasionales.
 
 ## Confidencialidad
 
@@ -54,4 +54,4 @@ No publico nombres de clientes, dominios, infraestructura, datos ni código de s
 
 ---
 
-**In English.** Applied AI consultant and Product Owner based in Barcelona. I conceptualise and lead AI-enabled systems and processes: from understanding the organisation to requirements, acceptance criteria, go-live and adoption. Open to applied AI consulting, AI process transformation and Product Owner or Technical Product Manager roles in any sector.
+**In English.** Applied AI consultant and Product Owner based in Barcelona. I conceptualise and lead AI-enabled systems and processes: from understanding the organisation to requirements, acceptance criteria, go-live and adoption. Open to applied AI consulting, AI process transformation and Product Owner roles in any sector.
