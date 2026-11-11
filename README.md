@@ -1,6 +1,7 @@
 # Robert Garabán
 
-**Consultor de IA aplicada · Product Owner · Transformación de procesos**  
+**Consultor de IA aplicada · Product Owner · Transformación de procesos**
+
 Barcelona, España · [LinkedIn](https://www.linkedin.com/in/robertgaraban/)
 
 Conceptualizo y dirijo sistemas y procesos en los que la inteligencia artificial tiene una función central y útil. Parto de la organización: sus personas, sus procesos, sus datos, sus decisiones y lo que falla. Lo convierto en requisitos, prioridades y criterios de aceptación, y coordino el producto, el diseño, el desarrollo, las pruebas, la puesta en marcha, la documentación y la adopción.
